@@ -2,6 +2,7 @@ class Game{
   private String answer;
   private String hits;
   private String misses;
+  public static final int MAX_MISSES = 7;
 
 
   public Game(String answer){
@@ -33,4 +34,9 @@ class Game{
     }
     return progress;
   }
+
+  public int getRemainingTries(){
+    return MAX_MISSES - misses.length();
+  }
+
   }
