@@ -18,4 +18,8 @@ class Promter{
 
 
     }
+
+  public void displayProgress(){
+    System.out.printf("Try to solve: %s%n", game.getCurrentProgress());
+  }
   }
