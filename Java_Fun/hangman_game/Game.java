@@ -1,4 +1,4 @@
-class Game{
+public class Game{
   private String answer;
   private String hits;
   private String misses;

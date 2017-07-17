@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Promter{
+public class Promter{
 
   private Game game;
 
